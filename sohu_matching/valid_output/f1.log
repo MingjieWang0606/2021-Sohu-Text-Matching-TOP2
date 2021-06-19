@@ -1,0 +1,48 @@
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0505/0508_ernie_epoch_1_ab_loss...
+f1 on ssa:  0.7740585774058577
+f1 on sla:  0.7804054054054054
+f1 on lla:  0.8264900662251656
+f1 on ssb:  0.7470449172576833
+f1 on slb:  0.6450511945392492
+f1 on llb:  0.7160220994475139
+
+Following are the f1 values of the merged models for the first merging attempt
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0505/0505_nezha_test_epoch_1_ab_loss...
+f1 on ssa:  0.7886497064579256
+f1 on sla:  0.7832939322301025
+f1 on lla:  0.8319697923222154
+f1 on ssb:  0.7267904509283819
+f1 on slb:  0.6546112115732369
+f1 on llb:  0.7199046483909417
+
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0505/0505_nezha_ce_epoch_1_ab_loss...
+f1 on ssa:  0.7715736040609137
+f1 on sla:  0.7829581993569131
+f1 on lla:  0.8356164383561645
+f1 on ssb:  0.736318407960199
+f1 on slb:  0.6565656565656567
+f1 on llb:  0.7442872687704026
+
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0503/0503_macbert_base_epoch_1_ab_loss...
+f1 on ssa:  0.78125
+f1 on sla:  0.7895622895622895
+f1 on lla:  0.8366688185926403
+f1 on ssb:  0.7391304347826085
+f1 on slb:  0.6429840142095915
+f1 on llb:  0.7233584499461786
+
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0502/0503_roberta_60K_singlemodel_epoch_1_ab_loss...
+f1 on ssa:  0.7979591836734694
+f1 on sla:  0.7949725058915947
+f1 on lla:  0.835234474017744
+f1 on ssb:  0.7255813953488373
+f1 on slb:  0.6536585365853659
+f1 on llb:  0.6992561105207226
+
+Loading Bert Model from /data1/wangchenyue/sohu_matching/checkpoints/0503/0503_sbert_roberta_epoch_1_ab_loss...
+f1 on ssa:  0.759167492566898
+f1 on sla:  0.761904761904762
+f1 on lla:  0.8226509023024268
+f1 on ssb:  0.7216981132075473
+f1 on slb:  0.6441821247892073
+f1 on llb:  0.7330415754923414

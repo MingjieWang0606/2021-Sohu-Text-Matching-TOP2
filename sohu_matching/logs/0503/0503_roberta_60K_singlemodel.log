@@ -1,0 +1,2200 @@
+Loading Bert Model...
+Loading Training Data...
+['../data/sohu2021_open_data/短短匹配A类/train.txt', '../data/sohu2021_open_data/短短匹配A类/train_r2.txt', '../data/sohu2021_open_data/短短匹配A类/train_r3.txt', '../data/sohu2021_open_data/短长匹配A类/train.txt', '../data/sohu2021_open_data/短长匹配A类/train_r2.txt', '../data/sohu2021_open_data/短长匹配A类/train_r3.txt', '../data/sohu2021_open_data/长长匹配A类/train.txt', '../data/sohu2021_open_data/长长匹配A类/train_r2.txt', '../data/sohu2021_open_data/长长匹配A类/train_r3.txt', '../data/sohu2021_open_data/短短匹配B类/train.txt', '../data/sohu2021_open_data/短短匹配B类/train_r2.txt', '../data/sohu2021_open_data/短短匹配B类/train_r3.txt', '../data/sohu2021_open_data/短长匹配B类/train.txt', '../data/sohu2021_open_data/短长匹配B类/train_r2.txt', '../data/sohu2021_open_data/短长匹配B类/train_r3.txt', '../data/sohu2021_open_data/长长匹配B类/train.txt', '../data/sohu2021_open_data/长长匹配B类/train_r2.txt', '../data/sohu2021_open_data/长长匹配B类/train_r3.txt']
+max length:  512
+Loading Dev Data...
+max length:  512
+Training on Task ab...
+Training at epoch 0
+	Batch: 49 / 4962, Loss: 1.260708
+		 Task A	Acc: 0.583333, F1: 0.444444
+		 Task B	Acc: 0.750000, F1: 0.500000
+	Batch: 99 / 4962, Loss: 1.668115
+		 Task A	Acc: 0.523810, F1: 0.500000
+		 Task B	Acc: 0.454545, F1: 0.250000
+	Batch: 149 / 4962, Loss: 1.281363
+		 Task A	Acc: 0.578947, F1: 0.333333
+		 Task B	Acc: 0.538462, F1: 0.000000
+	Batch: 199 / 4962, Loss: 1.194172
+		 Task A	Acc: 0.684211, F1: 0.250000
+		 Task B	Acc: 0.769231, F1: 0.666667
+Evaluating
+Loss on dev set:  0.6742224273009177
+F1 on dev set: 0.285211, f1_a: 0.235089, f1_b: 0.335333
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 249 / 4962, Loss: 1.184695
+		 Task A	Acc: 0.647059, F1: 0.250000
+		 Task B	Acc: 0.800000, F1: 0.000000
+	Batch: 299 / 4962, Loss: 1.130895
+		 Task A	Acc: 0.681818, F1: 0.533333
+		 Task B	Acc: 0.800000, F1: 0.000000
+	Batch: 349 / 4962, Loss: 1.022741
+		 Task A	Acc: 0.666667, F1: 0.615385
+		 Task B	Acc: 0.882353, F1: 0.000000
+	Batch: 399 / 4962, Loss: 1.021806
+		 Task A	Acc: 0.769231, F1: 0.666667
+		 Task B	Acc: 0.736842, F1: 0.000000
+Evaluating
+Loss on dev set:  0.4576034232591971
+F1 on dev set: 0.456617, f1_a: 0.523151, f1_b: 0.390083
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 449 / 4962, Loss: 0.693180
+		 Task A	Acc: 0.842105, F1: 0.571429
+		 Task B	Acc: 0.846154, F1: 0.500000
+	Batch: 499 / 4962, Loss: 0.985406
+		 Task A	Acc: 0.650000, F1: 0.222222
+		 Task B	Acc: 0.666667, F1: 0.333333
+	Batch: 549 / 4962, Loss: 0.805145
+		 Task A	Acc: 0.833333, F1: 0.769231
+		 Task B	Acc: 0.857143, F1: 0.500000
+	Batch: 599 / 4962, Loss: 0.766170
+		 Task A	Acc: 0.800000, F1: 0.750000
+		 Task B	Acc: 0.916667, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3639008760070189
+F1 on dev set: 0.647920, f1_a: 0.728738, f1_b: 0.567103
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 649 / 4962, Loss: 0.649663
+		 Task A	Acc: 0.818182, F1: 0.666667
+		 Task B	Acc: 0.857143, F1: 0.666667
+	Batch: 699 / 4962, Loss: 0.649297
+		 Task A	Acc: 0.882353, F1: 0.833333
+		 Task B	Acc: 0.866667, F1: 0.000000
+	Batch: 749 / 4962, Loss: 0.521091
+		 Task A	Acc: 0.933333, F1: 0.888889
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 799 / 4962, Loss: 0.740563
+		 Task A	Acc: 0.809524, F1: 0.800000
+		 Task B	Acc: 0.909091, F1: 0.666667
+Evaluating
+Loss on dev set:  0.35278124175965786
+F1 on dev set: 0.652110, f1_a: 0.699011, f1_b: 0.605210
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 849 / 4962, Loss: 1.334986
+		 Task A	Acc: 0.684211, F1: 0.666667
+		 Task B	Acc: 0.846154, F1: 0.750000
+	Batch: 899 / 4962, Loss: 0.633639
+		 Task A	Acc: 0.842105, F1: 0.727273
+		 Task B	Acc: 0.846154, F1: 0.000000
+	Batch: 949 / 4962, Loss: 0.547440
+		 Task A	Acc: 0.857143, F1: 0.823529
+		 Task B	Acc: 0.909091, F1: 0.800000
+	Batch: 999 / 4962, Loss: 0.832408
+		 Task A	Acc: 0.842105, F1: 0.769231
+		 Task B	Acc: 0.846154, F1: 0.666667
+Evaluating
+Loss on dev set:  0.34657674129956806
+F1 on dev set: 0.704843, f1_a: 0.757694, f1_b: 0.651991
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 1049 / 4962, Loss: 0.483875
+		 Task A	Acc: 0.842105, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1099 / 4962, Loss: 0.796625
+		 Task A	Acc: 0.692308, F1: 0.333333
+		 Task B	Acc: 0.842105, F1: 0.571429
+	Batch: 1149 / 4962, Loss: 0.642005
+		 Task A	Acc: 0.823529, F1: 0.823529
+		 Task B	Acc: 0.866667, F1: 0.000000
+	Batch: 1199 / 4962, Loss: 0.675924
+		 Task A	Acc: 0.947368, F1: 0.909091
+		 Task B	Acc: 0.769231, F1: 0.400000
+Evaluating
+Loss on dev set:  0.3455730998554291
+F1 on dev set: 0.711917, f1_a: 0.774558, f1_b: 0.649275
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 1249 / 4962, Loss: 0.635316
+		 Task A	Acc: 0.578947, F1: 0.600000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 1299 / 4962, Loss: 0.691419
+		 Task A	Acc: 0.789474, F1: 0.666667
+		 Task B	Acc: 0.923077, F1: 0.800000
+	Batch: 1349 / 4962, Loss: 0.993767
+		 Task A	Acc: 0.846154, F1: 0.666667
+		 Task B	Acc: 0.842105, F1: 0.000000
+	Batch: 1399 / 4962, Loss: 0.754099
+		 Task A	Acc: 0.833333, F1: 0.769231
+		 Task B	Acc: 0.857143, F1: 0.500000
+Evaluating
+Loss on dev set:  0.3240820209089762
+F1 on dev set: 0.704902, f1_a: 0.760000, f1_b: 0.649803
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 1449 / 4962, Loss: 0.534449
+		 Task A	Acc: 0.833333, F1: 0.727273
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 1499 / 4962, Loss: 0.952750
+		 Task A	Acc: 0.764706, F1: 0.750000
+		 Task B	Acc: 0.866667, F1: 0.666667
+	Batch: 1549 / 4962, Loss: 1.173963
+		 Task A	Acc: 0.615385, F1: 0.444444
+		 Task B	Acc: 0.842105, F1: 0.571429
+	Batch: 1599 / 4962, Loss: 0.904514
+		 Task A	Acc: 0.888889, F1: 0.909091
+		 Task B	Acc: 0.714286, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3271706485404418
+F1 on dev set: 0.678942, f1_a: 0.785222, f1_b: 0.572662
+	Batch: 1649 / 4962, Loss: 0.941580
+		 Task A	Acc: 0.571429, F1: 0.571429
+		 Task B	Acc: 0.833333, F1: 0.000000
+	Batch: 1699 / 4962, Loss: 0.769914
+		 Task A	Acc: 0.714286, F1: 0.600000
+		 Task B	Acc: 0.888889, F1: 0.666667
+	Batch: 1749 / 4962, Loss: 0.655359
+		 Task A	Acc: 0.733333, F1: 0.714286
+		 Task B	Acc: 0.823529, F1: 0.400000
+	Batch: 1799 / 4962, Loss: 0.685063
+		 Task A	Acc: 0.857143, F1: 0.750000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3095316690607713
+F1 on dev set: 0.722358, f1_a: 0.791754, f1_b: 0.652963
+----------BETTER LOSS, MODEL SAVED-----------
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 1849 / 4962, Loss: 0.594240
+		 Task A	Acc: 0.785714, F1: 0.769231
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1899 / 4962, Loss: 0.398606
+		 Task A	Acc: 0.933333, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1949 / 4962, Loss: 0.409549
+		 Task A	Acc: 0.882353, F1: 0.750000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 1999 / 4962, Loss: 0.981234
+		 Task A	Acc: 0.823529, F1: 0.727273
+		 Task B	Acc: 0.666667, F1: 0.444444
+Evaluating
+Loss on dev set:  0.31922087933008486
+F1 on dev set: 0.731065, f1_a: 0.787406, f1_b: 0.674725
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 2049 / 4962, Loss: 0.606073
+		 Task A	Acc: 0.882353, F1: 0.833333
+		 Task B	Acc: 0.866667, F1: 0.500000
+	Batch: 2099 / 4962, Loss: 0.684258
+		 Task A	Acc: 0.750000, F1: 0.600000
+		 Task B	Acc: 0.875000, F1: 0.800000
+	Batch: 2149 / 4962, Loss: 0.679548
+		 Task A	Acc: 0.812500, F1: 0.823529
+		 Task B	Acc: 0.750000, F1: 0.333333
+	Batch: 2199 / 4962, Loss: 0.662225
+		 Task A	Acc: 0.642857, F1: 0.444444
+		 Task B	Acc: 0.944444, F1: 0.666667
+Evaluating
+Loss on dev set:  0.31867391319993216
+F1 on dev set: 0.625766, f1_a: 0.790648, f1_b: 0.460884
+	Batch: 2249 / 4962, Loss: 0.875340
+		 Task A	Acc: 0.913043, F1: 0.875000
+		 Task B	Acc: 0.777778, F1: 0.666667
+	Batch: 2299 / 4962, Loss: 0.947597
+		 Task A	Acc: 0.733333, F1: 0.750000
+		 Task B	Acc: 0.705882, F1: 0.000000
+	Batch: 2349 / 4962, Loss: 0.555072
+		 Task A	Acc: 0.777778, F1: 0.600000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2399 / 4962, Loss: 0.527440
+		 Task A	Acc: 0.857143, F1: 0.857143
+		 Task B	Acc: 0.833333, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3066019677580931
+F1 on dev set: 0.711426, f1_a: 0.781121, f1_b: 0.641732
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 2449 / 4962, Loss: 0.872535
+		 Task A	Acc: 0.700000, F1: 0.500000
+		 Task B	Acc: 0.833333, F1: 0.666667
+	Batch: 2499 / 4962, Loss: 0.766831
+		 Task A	Acc: 0.800000, F1: 0.571429
+		 Task B	Acc: 0.882353, F1: 0.750000
+	Batch: 2549 / 4962, Loss: 0.599228
+		 Task A	Acc: 0.833333, F1: 0.833333
+		 Task B	Acc: 0.950000, F1: 0.000000
+	Batch: 2599 / 4962, Loss: 0.651395
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 0.785714, F1: 0.666667
+Evaluating
+Loss on dev set:  0.30440674903683174
+F1 on dev set: 0.711315, f1_a: 0.792952, f1_b: 0.629679
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 2649 / 4962, Loss: 0.897539
+		 Task A	Acc: 0.875000, F1: 0.833333
+		 Task B	Acc: 0.687500, F1: 0.545455
+	Batch: 2699 / 4962, Loss: 0.501409
+		 Task A	Acc: 0.888889, F1: 0.800000
+		 Task B	Acc: 0.928571, F1: 0.909091
+	Batch: 2749 / 4962, Loss: 0.607388
+		 Task A	Acc: 0.882353, F1: 0.875000
+		 Task B	Acc: 0.866667, F1: 0.500000
+	Batch: 2799 / 4962, Loss: 0.497141
+		 Task A	Acc: 0.882353, F1: 0.750000
+		 Task B	Acc: 0.866667, F1: 0.666667
+Evaluating
+Loss on dev set:  0.31119811988602847
+F1 on dev set: 0.678193, f1_a: 0.761792, f1_b: 0.594595
+	Batch: 2849 / 4962, Loss: 0.554393
+		 Task A	Acc: 0.800000, F1: 0.571429
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2899 / 4962, Loss: 0.811778
+		 Task A	Acc: 0.785714, F1: 0.400000
+		 Task B	Acc: 0.722222, F1: 0.000000
+	Batch: 2949 / 4962, Loss: 0.659776
+		 Task A	Acc: 0.823529, F1: 0.800000
+		 Task B	Acc: 0.866667, F1: 0.500000
+	Batch: 2999 / 4962, Loss: 0.821898
+		 Task A	Acc: 0.846154, F1: 0.750000
+		 Task B	Acc: 0.789474, F1: 0.333333
+Evaluating
+Loss on dev set:  0.30420069281871503
+F1 on dev set: 0.700370, f1_a: 0.792706, f1_b: 0.608033
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 3049 / 4962, Loss: 0.773126
+		 Task A	Acc: 0.823529, F1: 0.727273
+		 Task B	Acc: 0.933333, F1: 0.800000
+	Batch: 3099 / 4962, Loss: 0.617014
+		 Task A	Acc: 0.769231, F1: 0.666667
+		 Task B	Acc: 0.894737, F1: 0.666667
+	Batch: 3149 / 4962, Loss: 0.760746
+		 Task A	Acc: 0.789474, F1: 0.666667
+		 Task B	Acc: 0.769231, F1: 0.666667
+	Batch: 3199 / 4962, Loss: 0.669241
+		 Task A	Acc: 0.866667, F1: 0.833333
+		 Task B	Acc: 0.941176, F1: 0.888889
+Evaluating
+Loss on dev set:  0.30079890529696757
+F1 on dev set: 0.721994, f1_a: 0.789972, f1_b: 0.654016
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 3249 / 4962, Loss: 0.353734
+		 Task A	Acc: 0.800000, F1: 0.727273
+		 Task B	Acc: 0.941176, F1: 0.000000
+	Batch: 3299 / 4962, Loss: 0.830474
+		 Task A	Acc: 0.625000, F1: 0.250000
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 3349 / 4962, Loss: 0.462700
+		 Task A	Acc: 0.947368, F1: 0.800000
+		 Task B	Acc: 0.846154, F1: 0.666667
+	Batch: 3399 / 4962, Loss: 0.801006
+		 Task A	Acc: 0.750000, F1: 0.769231
+		 Task B	Acc: 0.850000, F1: 0.571429
+Evaluating
+Loss on dev set:  0.3128622262141643
+F1 on dev set: 0.722432, f1_a: 0.796356, f1_b: 0.648508
+	Batch: 3449 / 4962, Loss: 0.711933
+		 Task A	Acc: 0.933333, F1: 0.933333
+		 Task B	Acc: 0.941176, F1: 0.000000
+	Batch: 3499 / 4962, Loss: 0.955200
+		 Task A	Acc: 0.900000, F1: 0.888889
+		 Task B	Acc: 0.666667, F1: 0.000000
+	Batch: 3549 / 4962, Loss: 0.481572
+		 Task A	Acc: 0.882353, F1: 0.888889
+		 Task B	Acc: 0.933333, F1: 0.666667
+	Batch: 3599 / 4962, Loss: 0.625637
+		 Task A	Acc: 0.812500, F1: 0.727273
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3044150123993556
+F1 on dev set: 0.688371, f1_a: 0.783240, f1_b: 0.593502
+	Batch: 3649 / 4962, Loss: 0.261577
+		 Task A	Acc: 0.950000, F1: 0.941176
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 3699 / 4962, Loss: 0.735630
+		 Task A	Acc: 0.842105, F1: 0.823529
+		 Task B	Acc: 0.692308, F1: 0.333333
+	Batch: 3749 / 4962, Loss: 0.733078
+		 Task A	Acc: 0.739130, F1: 0.700000
+		 Task B	Acc: 0.777778, F1: 0.500000
+	Batch: 3799 / 4962, Loss: 0.602122
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.2998861593122666
+F1 on dev set: 0.712319, f1_a: 0.779642, f1_b: 0.644997
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 3849 / 4962, Loss: 0.561858
+		 Task A	Acc: 0.850000, F1: 0.800000
+		 Task B	Acc: 0.833333, F1: 0.666667
+	Batch: 3899 / 4962, Loss: 0.532792
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.809524, F1: 0.000000
+	Batch: 3949 / 4962, Loss: 0.696916
+		 Task A	Acc: 0.692308, F1: 0.600000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 3999 / 4962, Loss: 0.743585
+		 Task A	Acc: 0.857143, F1: 0.857143
+		 Task B	Acc: 0.777778, F1: 0.333333
+Evaluating
+Loss on dev set:  0.3043175495396822
+F1 on dev set: 0.690981, f1_a: 0.780822, f1_b: 0.601140
+	Batch: 4049 / 4962, Loss: 0.425160
+		 Task A	Acc: 0.928571, F1: 0.923077
+		 Task B	Acc: 0.888889, F1: 0.750000
+	Batch: 4099 / 4962, Loss: 0.603793
+		 Task A	Acc: 0.812500, F1: 0.769231
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 4149 / 4962, Loss: 0.583806
+		 Task A	Acc: 0.866667, F1: 0.666667
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4199 / 4962, Loss: 0.612461
+		 Task A	Acc: 0.782609, F1: 0.705882
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.31102515840664124
+F1 on dev set: 0.691989, f1_a: 0.800522, f1_b: 0.583456
+	Batch: 4249 / 4962, Loss: 0.247500
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.888889
+	Batch: 4299 / 4962, Loss: 0.385986
+		 Task A	Acc: 0.947368, F1: 0.888889
+		 Task B	Acc: 0.923077, F1: 0.000000
+	Batch: 4349 / 4962, Loss: 0.462503
+		 Task A	Acc: 0.933333, F1: 0.888889
+		 Task B	Acc: 0.882353, F1: 0.666667
+	Batch: 4399 / 4962, Loss: 0.649371
+		 Task A	Acc: 0.857143, F1: 0.800000
+		 Task B	Acc: 0.818182, F1: 0.000000
+Evaluating
+Loss on dev set:  0.30302296402171636
+F1 on dev set: 0.699645, f1_a: 0.788645, f1_b: 0.610644
+	Batch: 4449 / 4962, Loss: 0.795902
+		 Task A	Acc: 0.823529, F1: 0.823529
+		 Task B	Acc: 0.866667, F1: 0.666667
+	Batch: 4499 / 4962, Loss: 0.952780
+		 Task A	Acc: 0.714286, F1: 0.571429
+		 Task B	Acc: 0.727273, F1: 0.000000
+	Batch: 4549 / 4962, Loss: 0.511182
+		 Task A	Acc: 0.882353, F1: 0.500000
+		 Task B	Acc: 0.866667, F1: 0.000000
+	Batch: 4599 / 4962, Loss: 0.615481
+		 Task A	Acc: 0.875000, F1: 0.888889
+		 Task B	Acc: 0.875000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.31007662639977074
+F1 on dev set: 0.653680, f1_a: 0.813533, f1_b: 0.493827
+	Batch: 4649 / 4962, Loss: 0.450995
+		 Task A	Acc: 0.833333, F1: 0.750000
+		 Task B	Acc: 0.900000, F1: 0.500000
+	Batch: 4699 / 4962, Loss: 0.414155
+		 Task A	Acc: 0.833333, F1: 0.666667
+		 Task B	Acc: 0.857143, F1: 0.666667
+	Batch: 4749 / 4962, Loss: 0.642501
+		 Task A	Acc: 0.687500, F1: 0.615385
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 4799 / 4962, Loss: 0.767157
+		 Task A	Acc: 0.789474, F1: 0.750000
+		 Task B	Acc: 0.846154, F1: 0.500000
+Evaluating
+Loss on dev set:  0.29984434756139916
+F1 on dev set: 0.725038, f1_a: 0.794279, f1_b: 0.655797
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 4849 / 4962, Loss: 0.597724
+		 Task A	Acc: 0.857143, F1: 0.800000
+		 Task B	Acc: 0.944444, F1: 0.857143
+	Batch: 4899 / 4962, Loss: 0.464795
+		 Task A	Acc: 0.800000, F1: 0.500000
+		 Task B	Acc: 0.863636, F1: 0.000000
+	Batch: 4949 / 4962, Loss: 0.662894
+		 Task A	Acc: 0.928571, F1: 0.888889
+		 Task B	Acc: 0.777778, F1: 0.600000
+Average f1 on training set: 0.649541, f1_a: 0.738082, f1_b: 0.561000
+Training at epoch 1
+	Batch: 49 / 4962, Loss: 0.511287
+		 Task A	Acc: 0.944444, F1: 0.933333
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 99 / 4962, Loss: 0.597472
+		 Task A	Acc: 0.923077, F1: 0.909091
+		 Task B	Acc: 0.894737, F1: 0.500000
+	Batch: 149 / 4962, Loss: 0.557279
+		 Task A	Acc: 0.812500, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 199 / 4962, Loss: 0.666359
+		 Task A	Acc: 0.833333, F1: 0.823529
+		 Task B	Acc: 0.785714, F1: 0.400000
+Evaluating
+Loss on dev set:  0.3128006238585863
+F1 on dev set: 0.725956, f1_a: 0.777714, f1_b: 0.674197
+	Batch: 249 / 4962, Loss: 0.617806
+		 Task A	Acc: 0.850000, F1: 0.857143
+		 Task B	Acc: 0.833333, F1: 0.000000
+	Batch: 299 / 4962, Loss: 0.636122
+		 Task A	Acc: 0.800000, F1: 0.842105
+		 Task B	Acc: 0.823529, F1: 0.400000
+	Batch: 349 / 4962, Loss: 0.494331
+		 Task A	Acc: 0.894737, F1: 0.900000
+		 Task B	Acc: 0.923077, F1: 0.666667
+	Batch: 399 / 4962, Loss: 0.640953
+		 Task A	Acc: 0.916667, F1: 0.909091
+		 Task B	Acc: 0.850000, F1: 0.400000
+Evaluating
+Loss on dev set:  0.297105312299652
+F1 on dev set: 0.720400, f1_a: 0.801173, f1_b: 0.639628
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 449 / 4962, Loss: 0.368656
+		 Task A	Acc: 0.850000, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 499 / 4962, Loss: 0.288266
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.923077, F1: 0.666667
+	Batch: 549 / 4962, Loss: 0.395180
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.850000, F1: 0.400000
+	Batch: 599 / 4962, Loss: 0.587417
+		 Task A	Acc: 0.714286, F1: 0.800000
+		 Task B	Acc: 0.944444, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3078764170073928
+F1 on dev set: 0.742393, f1_a: 0.800110, f1_b: 0.684675
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 649 / 4962, Loss: 0.416538
+		 Task A	Acc: 0.882353, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 699 / 4962, Loss: 0.750403
+		 Task A	Acc: 0.625000, F1: 0.500000
+		 Task B	Acc: 0.937500, F1: 0.666667
+	Batch: 749 / 4962, Loss: 0.305343
+		 Task A	Acc: 0.866667, F1: 0.666667
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 799 / 4962, Loss: 0.288924
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.30036356469664055
+F1 on dev set: 0.708534, f1_a: 0.778457, f1_b: 0.638611
+	Batch: 849 / 4962, Loss: 0.588953
+		 Task A	Acc: 0.705882, F1: 0.666667
+		 Task B	Acc: 0.866667, F1: 0.666667
+	Batch: 899 / 4962, Loss: 0.490380
+		 Task A	Acc: 0.923077, F1: 0.933333
+		 Task B	Acc: 0.894737, F1: 0.500000
+	Batch: 949 / 4962, Loss: 0.671642
+		 Task A	Acc: 0.928571, F1: 0.941176
+		 Task B	Acc: 0.777778, F1: 0.600000
+	Batch: 999 / 4962, Loss: 0.473320
+		 Task A	Acc: 0.888889, F1: 0.800000
+		 Task B	Acc: 0.928571, F1: 0.857143
+Evaluating
+Loss on dev set:  0.3083509663836314
+F1 on dev set: 0.728783, f1_a: 0.784839, f1_b: 0.672727
+	Batch: 1049 / 4962, Loss: 0.520203
+		 Task A	Acc: 0.933333, F1: 0.888889
+		 Task B	Acc: 0.764706, F1: 0.500000
+	Batch: 1099 / 4962, Loss: 0.609201
+		 Task A	Acc: 0.800000, F1: 0.571429
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 1149 / 4962, Loss: 0.604419
+		 Task A	Acc: 0.823529, F1: 0.727273
+		 Task B	Acc: 0.933333, F1: 0.800000
+	Batch: 1199 / 4962, Loss: 0.664221
+		 Task A	Acc: 0.812500, F1: 0.727273
+		 Task B	Acc: 0.750000, F1: 0.500000
+Evaluating
+Loss on dev set:  0.2992055028772507
+F1 on dev set: 0.736564, f1_a: 0.808101, f1_b: 0.665028
+	Batch: 1249 / 4962, Loss: 0.465253
+		 Task A	Acc: 0.863636, F1: 0.769231
+		 Task B	Acc: 0.900000, F1: 0.800000
+	Batch: 1299 / 4962, Loss: 0.838428
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 0.750000, F1: 0.500000
+	Batch: 1349 / 4962, Loss: 0.745427
+		 Task A	Acc: 0.812500, F1: 0.727273
+		 Task B	Acc: 0.812500, F1: 0.666667
+	Batch: 1399 / 4962, Loss: 0.339820
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.866667, F1: 0.750000
+Evaluating
+Loss on dev set:  0.3033879610638206
+F1 on dev set: 0.699878, f1_a: 0.804501, f1_b: 0.595255
+	Batch: 1449 / 4962, Loss: 0.416958
+		 Task A	Acc: 0.937500, F1: 0.923077
+		 Task B	Acc: 0.937500, F1: 0.800000
+	Batch: 1499 / 4962, Loss: 0.792223
+		 Task A	Acc: 0.722222, F1: 0.444444
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 1549 / 4962, Loss: 0.565067
+		 Task A	Acc: 0.800000, F1: 0.571429
+		 Task B	Acc: 0.882353, F1: 0.500000
+	Batch: 1599 / 4962, Loss: 0.514390
+		 Task A	Acc: 0.916667, F1: 0.857143
+		 Task B	Acc: 0.900000, F1: 0.857143
+Evaluating
+Loss on dev set:  0.2941078088747767
+F1 on dev set: 0.718980, f1_a: 0.799890, f1_b: 0.638070
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 1649 / 4962, Loss: 0.900422
+		 Task A	Acc: 0.800000, F1: 0.571429
+		 Task B	Acc: 0.882353, F1: 0.500000
+	Batch: 1699 / 4962, Loss: 0.349426
+		 Task A	Acc: 0.913043, F1: 0.875000
+		 Task B	Acc: 0.888889, F1: 0.666667
+	Batch: 1749 / 4962, Loss: 0.417555
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.857143, F1: 0.500000
+	Batch: 1799 / 4962, Loss: 0.530392
+		 Task A	Acc: 0.933333, F1: 0.923077
+		 Task B	Acc: 0.823529, F1: 0.400000
+Evaluating
+Loss on dev set:  0.30487965152431756
+F1 on dev set: 0.688774, f1_a: 0.805267, f1_b: 0.572280
+	Batch: 1849 / 4962, Loss: 0.617648
+		 Task A	Acc: 0.923077, F1: 0.923077
+		 Task B	Acc: 0.789474, F1: 0.666667
+	Batch: 1899 / 4962, Loss: 0.453996
+		 Task A	Acc: 0.833333, F1: 0.800000
+		 Task B	Acc: 0.857143, F1: 0.000000
+	Batch: 1949 / 4962, Loss: 0.465012
+		 Task A	Acc: 0.866667, F1: 0.833333
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 1999 / 4962, Loss: 0.375944
+		 Task A	Acc: 0.823529, F1: 0.727273
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.2953431075677658
+F1 on dev set: 0.719872, f1_a: 0.796554, f1_b: 0.643189
+	Batch: 2049 / 4962, Loss: 0.347394
+		 Task A	Acc: 0.933333, F1: 0.857143
+		 Task B	Acc: 0.941176, F1: 0.857143
+	Batch: 2099 / 4962, Loss: 0.554100
+		 Task A	Acc: 0.875000, F1: 0.857143
+		 Task B	Acc: 0.875000, F1: 0.666667
+	Batch: 2149 / 4962, Loss: 0.427096
+		 Task A	Acc: 0.894737, F1: 0.875000
+		 Task B	Acc: 0.923077, F1: 0.666667
+	Batch: 2199 / 4962, Loss: 0.834888
+		 Task A	Acc: 0.933333, F1: 0.933333
+		 Task B	Acc: 0.882353, F1: 0.500000
+Evaluating
+Loss on dev set:  0.2980858711286997
+F1 on dev set: 0.739721, f1_a: 0.800742, f1_b: 0.678700
+	Batch: 2249 / 4962, Loss: 0.731374
+		 Task A	Acc: 0.785714, F1: 0.666667
+		 Task B	Acc: 0.888889, F1: 0.666667
+	Batch: 2299 / 4962, Loss: 0.644945
+		 Task A	Acc: 0.812500, F1: 0.727273
+		 Task B	Acc: 0.812500, F1: 0.400000
+	Batch: 2349 / 4962, Loss: 0.534246
+		 Task A	Acc: 0.866667, F1: 0.857143
+		 Task B	Acc: 0.941176, F1: 0.666667
+	Batch: 2399 / 4962, Loss: 0.617644
+		 Task A	Acc: 0.875000, F1: 0.833333
+		 Task B	Acc: 0.750000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.2989715928546129
+F1 on dev set: 0.693808, f1_a: 0.792515, f1_b: 0.595101
+	Batch: 2449 / 4962, Loss: 0.422936
+		 Task A	Acc: 0.764706, F1: 0.666667
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 2499 / 4962, Loss: 0.716475
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 0.714286, F1: 0.333333
+	Batch: 2549 / 4962, Loss: 0.454796
+		 Task A	Acc: 0.857143, F1: 0.500000
+		 Task B	Acc: 0.944444, F1: 0.000000
+	Batch: 2599 / 4962, Loss: 0.544217
+		 Task A	Acc: 0.923077, F1: 0.909091
+		 Task B	Acc: 0.789474, F1: 0.500000
+Evaluating
+Loss on dev set:  0.2979409776102656
+F1 on dev set: 0.747446, f1_a: 0.805312, f1_b: 0.689580
+----------BETTER F1, MODEL SAVED-----------
+	Batch: 2649 / 4962, Loss: 0.438376
+		 Task A	Acc: 0.812500, F1: 0.727273
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2699 / 4962, Loss: 0.574337
+		 Task A	Acc: 0.875000, F1: 0.800000
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 2749 / 4962, Loss: 0.327349
+		 Task A	Acc: 0.909091, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2799 / 4962, Loss: 0.516607
+		 Task A	Acc: 0.818182, F1: 0.666667
+		 Task B	Acc: 0.809524, F1: 0.600000
+Evaluating
+Loss on dev set:  0.2964001046971251
+F1 on dev set: 0.719790, f1_a: 0.792676, f1_b: 0.646904
+	Batch: 2849 / 4962, Loss: 0.716063
+		 Task A	Acc: 0.833333, F1: 0.727273
+		 Task B	Acc: 0.928571, F1: 0.666667
+	Batch: 2899 / 4962, Loss: 0.454696
+		 Task A	Acc: 0.894737, F1: 0.875000
+		 Task B	Acc: 0.923077, F1: 0.000000
+	Batch: 2949 / 4962, Loss: 0.672857
+		 Task A	Acc: 0.904762, F1: 0.857143
+		 Task B	Acc: 0.909091, F1: 0.800000
+	Batch: 2999 / 4962, Loss: 0.288751
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.947368, F1: 0.909091
+Evaluating
+Loss on dev set:  0.29310719506480754
+F1 on dev set: 0.719835, f1_a: 0.800872, f1_b: 0.638798
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 3049 / 4962, Loss: 0.683279
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 0.857143, F1: 0.666667
+	Batch: 3099 / 4962, Loss: 0.295516
+		 Task A	Acc: 0.916667, F1: 0.888889
+		 Task B	Acc: 0.950000, F1: 0.888889
+	Batch: 3149 / 4962, Loss: 0.533946
+		 Task A	Acc: 0.944444, F1: 0.888889
+		 Task B	Acc: 0.714286, F1: 0.333333
+	Batch: 3199 / 4962, Loss: 0.511541
+		 Task A	Acc: 0.909091, F1: 0.857143
+		 Task B	Acc: 0.809524, F1: 0.600000
+Evaluating
+Loss on dev set:  0.3001588060019108
+F1 on dev set: 0.712017, f1_a: 0.786104, f1_b: 0.637931
+	Batch: 3249 / 4962, Loss: 0.334251
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.888889
+	Batch: 3299 / 4962, Loss: 0.362877
+		 Task A	Acc: 0.842105, F1: 0.823529
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3349 / 4962, Loss: 0.667566
+		 Task A	Acc: 0.947368, F1: 0.933333
+		 Task B	Acc: 0.846154, F1: 0.666667
+	Batch: 3399 / 4962, Loss: 0.850692
+		 Task A	Acc: 0.600000, F1: 0.250000
+		 Task B	Acc: 0.823529, F1: 0.666667
+Evaluating
+Loss on dev set:  0.2958017442709742
+F1 on dev set: 0.707333, f1_a: 0.790006, f1_b: 0.624661
+	Batch: 3449 / 4962, Loss: 0.470319
+		 Task A	Acc: 0.823529, F1: 0.727273
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3499 / 4962, Loss: 0.719743
+		 Task A	Acc: 0.800000, F1: 0.823529
+		 Task B	Acc: 0.823529, F1: 0.400000
+	Batch: 3549 / 4962, Loss: 0.363256
+		 Task A	Acc: 0.875000, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3599 / 4962, Loss: 0.397049
+		 Task A	Acc: 0.900000, F1: 0.833333
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.29049365169917923
+F1 on dev set: 0.717265, f1_a: 0.803586, f1_b: 0.630944
+----------BETTER LOSS, MODEL SAVED-----------
+	Batch: 3649 / 4962, Loss: 0.518773
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 0.857143, F1: 0.500000
+	Batch: 3699 / 4962, Loss: 0.805460
+		 Task A	Acc: 0.800000, F1: 0.727273
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3749 / 4962, Loss: 0.457759
+		 Task A	Acc: 0.947368, F1: 0.923077
+		 Task B	Acc: 0.923077, F1: 0.888889
+	Batch: 3799 / 4962, Loss: 0.429102
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 0.750000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.2948530259757088
+F1 on dev set: 0.702352, f1_a: 0.797038, f1_b: 0.607666
+	Batch: 3849 / 4962, Loss: 0.484320
+		 Task A	Acc: 0.846154, F1: 0.666667
+		 Task B	Acc: 0.947368, F1: 0.666667
+	Batch: 3899 / 4962, Loss: 0.572879
+		 Task A	Acc: 0.882353, F1: 0.750000
+		 Task B	Acc: 0.866667, F1: 0.666667
+	Batch: 3949 / 4962, Loss: 1.184592
+		 Task A	Acc: 0.625000, F1: 0.571429
+		 Task B	Acc: 0.750000, F1: 0.500000
+	Batch: 3999 / 4962, Loss: 0.368904
+		 Task A	Acc: 0.842105, F1: 0.823529
+		 Task B	Acc: 0.923077, F1: 0.857143
+Evaluating
+Loss on dev set:  0.2985788576830274
+F1 on dev set: 0.729189, f1_a: 0.800652, f1_b: 0.657727
+	Batch: 4049 / 4962, Loss: 0.728855
+		 Task A	Acc: 0.823529, F1: 0.823529
+		 Task B	Acc: 0.933333, F1: 0.000000
+	Batch: 4099 / 4962, Loss: 0.708272
+		 Task A	Acc: 0.818182, F1: 0.714286
+		 Task B	Acc: 0.800000, F1: 0.500000
+	Batch: 4149 / 4962, Loss: 0.296429
+		 Task A	Acc: 0.904762, F1: 0.900000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4199 / 4962, Loss: 0.493341
+		 Task A	Acc: 0.875000, F1: 0.800000
+		 Task B	Acc: 0.875000, F1: 0.666667
+Evaluating
+Loss on dev set:  0.29853202082598823
+F1 on dev set: 0.707178, f1_a: 0.779977, f1_b: 0.634379
+	Batch: 4249 / 4962, Loss: 0.794685
+		 Task A	Acc: 0.687500, F1: 0.666667
+		 Task B	Acc: 0.875000, F1: 0.750000
+	Batch: 4299 / 4962, Loss: 0.529259
+		 Task A	Acc: 0.909091, F1: 0.800000
+		 Task B	Acc: 0.857143, F1: 0.769231
+	Batch: 4349 / 4962, Loss: 0.825270
+		 Task A	Acc: 0.850000, F1: 0.800000
+		 Task B	Acc: 0.916667, F1: 0.000000
+	Batch: 4399 / 4962, Loss: 0.460920
+		 Task A	Acc: 0.857143, F1: 0.833333
+		 Task B	Acc: 0.944444, F1: 0.857143
+Evaluating
+Loss on dev set:  0.30343675288634425
+F1 on dev set: 0.714397, f1_a: 0.783807, f1_b: 0.644986
+	Batch: 4449 / 4962, Loss: 0.281954
+		 Task A	Acc: 0.900000, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4499 / 4962, Loss: 0.618301
+		 Task A	Acc: 0.875000, F1: 0.833333
+		 Task B	Acc: 0.812500, F1: 0.571429
+	Batch: 4549 / 4962, Loss: 0.672574
+		 Task A	Acc: 0.842105, F1: 0.823529
+		 Task B	Acc: 0.692308, F1: 0.714286
+	Batch: 4599 / 4962, Loss: 0.287473
+		 Task A	Acc: 0.950000, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.30674711626787216
+F1 on dev set: 0.650959, f1_a: 0.763516, f1_b: 0.538402
+	Batch: 4649 / 4962, Loss: 0.828599
+		 Task A	Acc: 0.750000, F1: 0.750000
+		 Task B	Acc: 0.812500, F1: 0.571429
+	Batch: 4699 / 4962, Loss: 0.645475
+		 Task A	Acc: 0.823529, F1: 0.800000
+		 Task B	Acc: 0.866667, F1: 0.666667
+	Batch: 4749 / 4962, Loss: 0.683300
+		 Task A	Acc: 0.894737, F1: 0.875000
+		 Task B	Acc: 0.846154, F1: 0.500000
+	Batch: 4799 / 4962, Loss: 0.368494
+		 Task A	Acc: 0.764706, F1: 0.666667
+		 Task B	Acc: 0.933333, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3015882739653954
+F1 on dev set: 0.703811, f1_a: 0.768212, f1_b: 0.639410
+	Batch: 4849 / 4962, Loss: 0.542095
+		 Task A	Acc: 0.823529, F1: 0.823529
+		 Task B	Acc: 0.866667, F1: 0.750000
+	Batch: 4899 / 4962, Loss: 0.560271
+		 Task A	Acc: 0.750000, F1: 0.545455
+		 Task B	Acc: 0.833333, F1: 0.500000
+	Batch: 4949 / 4962, Loss: 0.586353
+		 Task A	Acc: 0.923077, F1: 0.800000
+		 Task B	Acc: 0.842105, F1: 0.727273
+Average f1 on training set: 0.749250, f1_a: 0.815299, f1_b: 0.683200
+Training at epoch 2
+	Batch: 49 / 4962, Loss: 0.322206
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 99 / 4962, Loss: 0.271826
+		 Task A	Acc: 0.923077, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 149 / 4962, Loss: 0.535611
+		 Task A	Acc: 0.750000, F1: 0.705882
+		 Task B	Acc: 0.916667, F1: 0.000000
+	Batch: 199 / 4962, Loss: 0.290385
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.500000
+Evaluating
+Loss on dev set:  0.3212864216512594
+F1 on dev set: 0.735997, f1_a: 0.800648, f1_b: 0.671345
+	Batch: 249 / 4962, Loss: 0.384990
+		 Task A	Acc: 0.909091, F1: 0.909091
+		 Task B	Acc: 0.952381, F1: 0.888889
+	Batch: 299 / 4962, Loss: 0.245067
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 349 / 4962, Loss: 0.102111
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 399 / 4962, Loss: 0.275511
+		 Task A	Acc: 0.888889, F1: 0.750000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3316799347073986
+F1 on dev set: 0.727517, f1_a: 0.797549, f1_b: 0.657485
+	Batch: 449 / 4962, Loss: 0.316056
+		 Task A	Acc: 0.944444, F1: 0.933333
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 499 / 4962, Loss: 0.413991
+		 Task A	Acc: 0.842105, F1: 0.823529
+		 Task B	Acc: 0.923077, F1: 0.800000
+	Batch: 549 / 4962, Loss: 0.412580
+		 Task A	Acc: 0.812500, F1: 0.571429
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 599 / 4962, Loss: 0.177142
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3290059363278441
+F1 on dev set: 0.722149, f1_a: 0.787411, f1_b: 0.656888
+	Batch: 649 / 4962, Loss: 0.779604
+		 Task A	Acc: 0.833333, F1: 0.823529
+		 Task B	Acc: 0.857143, F1: 0.800000
+	Batch: 699 / 4962, Loss: 0.636394
+		 Task A	Acc: 0.833333, F1: 0.727273
+		 Task B	Acc: 0.857143, F1: 0.666667
+	Batch: 749 / 4962, Loss: 0.603340
+		 Task A	Acc: 0.944444, F1: 0.909091
+		 Task B	Acc: 0.785714, F1: 0.666667
+	Batch: 799 / 4962, Loss: 0.541708
+		 Task A	Acc: 0.888889, F1: 0.857143
+		 Task B	Acc: 0.928571, F1: 0.800000
+Evaluating
+Loss on dev set:  0.38515683077275753
+F1 on dev set: 0.708398, f1_a: 0.772727, f1_b: 0.644068
+	Batch: 849 / 4962, Loss: 0.845511
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.666667, F1: 0.000000
+	Batch: 899 / 4962, Loss: 0.467522
+		 Task A	Acc: 0.875000, F1: 0.666667
+		 Task B	Acc: 0.937500, F1: 0.800000
+	Batch: 949 / 4962, Loss: 0.569515
+		 Task A	Acc: 0.833333, F1: 0.875000
+		 Task B	Acc: 0.900000, F1: 0.666667
+	Batch: 999 / 4962, Loss: 0.391212
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.800000, F1: 0.571429
+Evaluating
+Loss on dev set:  0.35549347413082916
+F1 on dev set: 0.705008, f1_a: 0.785015, f1_b: 0.625000
+	Batch: 1049 / 4962, Loss: 0.676382
+		 Task A	Acc: 0.785714, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1099 / 4962, Loss: 0.696677
+		 Task A	Acc: 0.888889, F1: 0.875000
+		 Task B	Acc: 0.785714, F1: 0.571429
+	Batch: 1149 / 4962, Loss: 0.188359
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.933333, F1: 0.857143
+	Batch: 1199 / 4962, Loss: 0.512086
+		 Task A	Acc: 0.894737, F1: 0.833333
+		 Task B	Acc: 0.769231, F1: 0.400000
+Evaluating
+Loss on dev set:  0.3252347797298661
+F1 on dev set: 0.736465, f1_a: 0.795693, f1_b: 0.677237
+	Batch: 1249 / 4962, Loss: 0.271548
+		 Task A	Acc: 0.944444, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1299 / 4962, Loss: 0.539086
+		 Task A	Acc: 0.842105, F1: 0.842105
+		 Task B	Acc: 0.923077, F1: 0.666667
+	Batch: 1349 / 4962, Loss: 0.219169
+		 Task A	Acc: 0.875000, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1399 / 4962, Loss: 0.248081
+		 Task A	Acc: 0.933333, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3372884684313948
+F1 on dev set: 0.724737, f1_a: 0.789545, f1_b: 0.659929
+	Batch: 1449 / 4962, Loss: 0.413342
+		 Task A	Acc: 0.846154, F1: 0.833333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1499 / 4962, Loss: 0.153334
+		 Task A	Acc: 0.900000, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1549 / 4962, Loss: 0.669721
+		 Task A	Acc: 0.933333, F1: 0.933333
+		 Task B	Acc: 0.764706, F1: 0.500000
+	Batch: 1599 / 4962, Loss: 0.751824
+		 Task A	Acc: 0.947368, F1: 0.956522
+		 Task B	Acc: 0.692308, F1: 0.333333
+Evaluating
+Loss on dev set:  0.36498858220875263
+F1 on dev set: 0.712375, f1_a: 0.768692, f1_b: 0.656059
+	Batch: 1649 / 4962, Loss: 0.337370
+		 Task A	Acc: 0.888889, F1: 0.833333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1699 / 4962, Loss: 0.358214
+		 Task A	Acc: 0.923077, F1: 0.909091
+		 Task B	Acc: 0.842105, F1: 0.727273
+	Batch: 1749 / 4962, Loss: 0.362590
+		 Task A	Acc: 0.937500, F1: 0.666667
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 1799 / 4962, Loss: 0.392312
+		 Task A	Acc: 0.941176, F1: 0.933333
+		 Task B	Acc: 0.933333, F1: 0.666667
+Evaluating
+Loss on dev set:  0.3247446034772274
+F1 on dev set: 0.727409, f1_a: 0.789716, f1_b: 0.665103
+	Batch: 1849 / 4962, Loss: 0.348474
+		 Task A	Acc: 0.937500, F1: 0.933333
+		 Task B	Acc: 0.937500, F1: 0.857143
+	Batch: 1899 / 4962, Loss: 0.405486
+		 Task A	Acc: 0.933333, F1: 0.857143
+		 Task B	Acc: 0.941176, F1: 0.666667
+	Batch: 1949 / 4962, Loss: 0.471107
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.833333
+	Batch: 1999 / 4962, Loss: 0.207778
+		 Task A	Acc: 0.933333, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.33853349920648795
+F1 on dev set: 0.701426, f1_a: 0.780057, f1_b: 0.622795
+	Batch: 2049 / 4962, Loss: 0.570456
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.777778, F1: 0.600000
+	Batch: 2099 / 4962, Loss: 0.154369
+		 Task A	Acc: 0.944444, F1: 0.952381
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2149 / 4962, Loss: 0.322698
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2199 / 4962, Loss: 0.305877
+		 Task A	Acc: 0.928571, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.343738717910571
+F1 on dev set: 0.712790, f1_a: 0.776293, f1_b: 0.649286
+	Batch: 2249 / 4962, Loss: 0.215328
+		 Task A	Acc: 0.944444, F1: 0.933333
+		 Task B	Acc: 0.928571, F1: 0.000000
+	Batch: 2299 / 4962, Loss: 0.119982
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2349 / 4962, Loss: 0.135201
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2399 / 4962, Loss: 0.335070
+		 Task A	Acc: 0.857143, F1: 0.900000
+		 Task B	Acc: 0.944444, F1: 0.800000
+Evaluating
+Loss on dev set:  0.33625707894754714
+F1 on dev set: 0.728033, f1_a: 0.788257, f1_b: 0.667810
+	Batch: 2449 / 4962, Loss: 0.611147
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.850000, F1: 0.666667
+	Batch: 2499 / 4962, Loss: 0.401557
+		 Task A	Acc: 0.866667, F1: 0.833333
+		 Task B	Acc: 0.941176, F1: 0.666667
+	Batch: 2549 / 4962, Loss: 0.188689
+		 Task A	Acc: 0.923077, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2599 / 4962, Loss: 0.379698
+		 Task A	Acc: 0.888889, F1: 0.916667
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3351858492510823
+F1 on dev set: 0.726365, f1_a: 0.793511, f1_b: 0.659218
+	Batch: 2649 / 4962, Loss: 0.322301
+		 Task A	Acc: 0.950000, F1: 0.947368
+		 Task B	Acc: 0.916667, F1: 0.666667
+	Batch: 2699 / 4962, Loss: 0.375422
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.750000
+	Batch: 2749 / 4962, Loss: 0.212202
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.923077, F1: 0.666667
+	Batch: 2799 / 4962, Loss: 0.128112
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3350807478269323
+F1 on dev set: 0.730979, f1_a: 0.794513, f1_b: 0.667445
+	Batch: 2849 / 4962, Loss: 0.215867
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2899 / 4962, Loss: 0.493793
+		 Task A	Acc: 0.800000, F1: 0.750000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2949 / 4962, Loss: 0.337284
+		 Task A	Acc: 0.882353, F1: 0.833333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2999 / 4962, Loss: 0.309297
+		 Task A	Acc: 0.916667, F1: 0.888889
+		 Task B	Acc: 0.850000, F1: 0.571429
+Evaluating
+Loss on dev set:  0.35233863729697007
+F1 on dev set: 0.732766, f1_a: 0.788393, f1_b: 0.677140
+	Batch: 3049 / 4962, Loss: 0.421730
+		 Task A	Acc: 0.800000, F1: 0.769231
+		 Task B	Acc: 0.882353, F1: 0.750000
+	Batch: 3099 / 4962, Loss: 0.387292
+		 Task A	Acc: 0.888889, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3149 / 4962, Loss: 0.711541
+		 Task A	Acc: 0.888889, F1: 0.875000
+		 Task B	Acc: 0.785714, F1: 0.571429
+	Batch: 3199 / 4962, Loss: 0.273570
+		 Task A	Acc: 0.933333, F1: 0.923077
+		 Task B	Acc: 0.941176, F1: 0.000000
+Evaluating
+Loss on dev set:  0.3462808406553589
+F1 on dev set: 0.716647, f1_a: 0.793293, f1_b: 0.640000
+	Batch: 3249 / 4962, Loss: 0.654813
+		 Task A	Acc: 0.944444, F1: 0.941176
+		 Task B	Acc: 0.785714, F1: 0.000000
+	Batch: 3299 / 4962, Loss: 0.427304
+		 Task A	Acc: 0.888889, F1: 0.800000
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 3349 / 4962, Loss: 0.379780
+		 Task A	Acc: 0.944444, F1: 0.888889
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 3399 / 4962, Loss: 0.234846
+		 Task A	Acc: 0.888889, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3387053845784603
+F1 on dev set: 0.707120, f1_a: 0.784214, f1_b: 0.630027
+	Batch: 3449 / 4962, Loss: 0.430617
+		 Task A	Acc: 0.866667, F1: 0.500000
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 3499 / 4962, Loss: 0.385028
+		 Task A	Acc: 0.937500, F1: 0.933333
+		 Task B	Acc: 0.875000, F1: 0.750000
+	Batch: 3549 / 4962, Loss: 0.481060
+		 Task A	Acc: 0.866667, F1: 0.800000
+		 Task B	Acc: 0.941176, F1: 0.888889
+	Batch: 3599 / 4962, Loss: 0.161239
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.923077
+Evaluating
+Loss on dev set:  0.34971784993719596
+F1 on dev set: 0.713815, f1_a: 0.773736, f1_b: 0.653895
+	Batch: 3649 / 4962, Loss: 0.508630
+		 Task A	Acc: 0.956522, F1: 0.952381
+		 Task B	Acc: 0.777778, F1: 0.666667
+	Batch: 3699 / 4962, Loss: 0.385603
+		 Task A	Acc: 0.888889, F1: 0.875000
+		 Task B	Acc: 0.928571, F1: 0.857143
+	Batch: 3749 / 4962, Loss: 0.160881
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3799 / 4962, Loss: 0.277360
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.900000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.33245556008739346
+F1 on dev set: 0.725310, f1_a: 0.793812, f1_b: 0.656808
+	Batch: 3849 / 4962, Loss: 0.328901
+		 Task A	Acc: 0.933333, F1: 0.888889
+		 Task B	Acc: 0.882353, F1: 0.666667
+	Batch: 3899 / 4962, Loss: 0.287355
+		 Task A	Acc: 0.952381, F1: 0.947368
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3949 / 4962, Loss: 0.075655
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3999 / 4962, Loss: 0.366961
+		 Task A	Acc: 0.833333, F1: 0.500000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.33972189102608424
+F1 on dev set: 0.736329, f1_a: 0.793281, f1_b: 0.679376
+	Batch: 4049 / 4962, Loss: 0.302959
+		 Task A	Acc: 0.944444, F1: 0.909091
+		 Task B	Acc: 0.857143, F1: 0.000000
+	Batch: 4099 / 4962, Loss: 0.520846
+		 Task A	Acc: 0.947368, F1: 0.923077
+		 Task B	Acc: 0.769231, F1: 0.400000
+	Batch: 4149 / 4962, Loss: 0.222327
+		 Task A	Acc: 0.950000, F1: 0.947368
+		 Task B	Acc: 0.916667, F1: 0.800000
+	Batch: 4199 / 4962, Loss: 0.386712
+		 Task A	Acc: 0.846154, F1: 0.857143
+		 Task B	Acc: 0.947368, F1: 0.888889
+Evaluating
+Loss on dev set:  0.34201210730064374
+F1 on dev set: 0.736800, f1_a: 0.797663, f1_b: 0.675936
+	Batch: 4249 / 4962, Loss: 0.226354
+		 Task A	Acc: 0.941176, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4299 / 4962, Loss: 0.254597
+		 Task A	Acc: 0.882353, F1: 0.857143
+		 Task B	Acc: 0.933333, F1: 0.666667
+	Batch: 4349 / 4962, Loss: 0.373277
+		 Task A	Acc: 0.866667, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4399 / 4962, Loss: 0.371352
+		 Task A	Acc: 0.842105, F1: 0.666667
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.3275232697622134
+F1 on dev set: 0.729523, f1_a: 0.792380, f1_b: 0.666667
+	Batch: 4449 / 4962, Loss: 0.441467
+		 Task A	Acc: 0.894737, F1: 0.875000
+		 Task B	Acc: 0.923077, F1: 0.909091
+	Batch: 4499 / 4962, Loss: 0.290495
+		 Task A	Acc: 0.937500, F1: 0.952381
+		 Task B	Acc: 0.875000, F1: 0.000000
+	Batch: 4549 / 4962, Loss: 0.516520
+		 Task A	Acc: 0.928571, F1: 0.888889
+		 Task B	Acc: 0.888889, F1: 0.500000
+	Batch: 4599 / 4962, Loss: 0.475009
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.812500, F1: 0.571429
+Evaluating
+Loss on dev set:  0.3285732614592864
+F1 on dev set: 0.725420, f1_a: 0.785795, f1_b: 0.665046
+	Batch: 4649 / 4962, Loss: 0.429023
+		 Task A	Acc: 0.950000, F1: 0.933333
+		 Task B	Acc: 0.750000, F1: 0.000000
+	Batch: 4699 / 4962, Loss: 0.329622
+		 Task A	Acc: 0.833333, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4749 / 4962, Loss: 0.318181
+		 Task A	Acc: 0.866667, F1: 0.857143
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 4799 / 4962, Loss: 0.441479
+		 Task A	Acc: 0.875000, F1: 0.833333
+		 Task B	Acc: 0.812500, F1: 0.666667
+Evaluating
+Loss on dev set:  0.3193864612243114
+F1 on dev set: 0.728488, f1_a: 0.799049, f1_b: 0.657928
+	Batch: 4849 / 4962, Loss: 0.217658
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.842105, F1: 0.666667
+	Batch: 4899 / 4962, Loss: 0.228551
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.952381, F1: 0.888889
+	Batch: 4949 / 4962, Loss: 0.277557
+		 Task A	Acc: 0.857143, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Average f1 on training set: 0.834933, f1_a: 0.887187, f1_b: 0.782679
+Training at epoch 3
+	Batch: 49 / 4962, Loss: 0.262858
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.882353, F1: 0.666667
+	Batch: 99 / 4962, Loss: 0.479875
+		 Task A	Acc: 0.866667, F1: 0.833333
+		 Task B	Acc: 0.882353, F1: 0.666667
+	Batch: 149 / 4962, Loss: 0.270262
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 199 / 4962, Loss: 0.264880
+		 Task A	Acc: 0.923077, F1: 0.857143
+		 Task B	Acc: 0.947368, F1: 0.800000
+Evaluating
+Loss on dev set:  0.39911301016138917
+F1 on dev set: 0.728869, f1_a: 0.775252, f1_b: 0.682486
+	Batch: 249 / 4962, Loss: 0.120529
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.937500, F1: 0.800000
+	Batch: 299 / 4962, Loss: 0.040881
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 349 / 4962, Loss: 0.101089
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 399 / 4962, Loss: 0.039075
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.44057102893025446
+F1 on dev set: 0.719066, f1_a: 0.791256, f1_b: 0.646877
+	Batch: 449 / 4962, Loss: 0.093415
+		 Task A	Acc: 0.933333, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 499 / 4962, Loss: 0.316824
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.750000
+	Batch: 549 / 4962, Loss: 0.137281
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.888889
+	Batch: 599 / 4962, Loss: 0.063922
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.474920834438541
+F1 on dev set: 0.728100, f1_a: 0.789533, f1_b: 0.666667
+	Batch: 649 / 4962, Loss: 0.168068
+		 Task A	Acc: 0.944444, F1: 0.960000
+		 Task B	Acc: 0.928571, F1: 0.857143
+	Batch: 699 / 4962, Loss: 0.228512
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.666667
+	Batch: 749 / 4962, Loss: 0.051010
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 799 / 4962, Loss: 0.265771
+		 Task A	Acc: 0.950000, F1: 0.947368
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.4243868908438927
+F1 on dev set: 0.724208, f1_a: 0.786823, f1_b: 0.661593
+	Batch: 849 / 4962, Loss: 0.339800
+		 Task A	Acc: 0.944444, F1: 0.952381
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 899 / 4962, Loss: 0.258660
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.913043, F1: 0.833333
+	Batch: 949 / 4962, Loss: 0.260040
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.888889
+	Batch: 999 / 4962, Loss: 0.239326
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.800000
+Evaluating
+Loss on dev set:  0.44164193732043106
+F1 on dev set: 0.722805, f1_a: 0.780057, f1_b: 0.665554
+	Batch: 1049 / 4962, Loss: 0.119548
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.941176
+	Batch: 1099 / 4962, Loss: 0.327290
+		 Task A	Acc: 0.947368, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1149 / 4962, Loss: 0.234604
+		 Task A	Acc: 0.941176, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1199 / 4962, Loss: 0.127457
+		 Task A	Acc: 0.928571, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.43017569523400223
+F1 on dev set: 0.722223, f1_a: 0.787251, f1_b: 0.657194
+	Batch: 1249 / 4962, Loss: 0.334015
+		 Task A	Acc: 0.944444, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1299 / 4962, Loss: 0.146939
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.947368, F1: 0.666667
+	Batch: 1349 / 4962, Loss: 0.088809
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1399 / 4962, Loss: 0.288823
+		 Task A	Acc: 0.923077, F1: 0.800000
+		 Task B	Acc: 0.894737, F1: 0.500000
+Evaluating
+Loss on dev set:  0.44899787180698836
+F1 on dev set: 0.699660, f1_a: 0.778538, f1_b: 0.620781
+	Batch: 1449 / 4962, Loss: 0.337320
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.833333, F1: 0.400000
+	Batch: 1499 / 4962, Loss: 0.364461
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.750000
+	Batch: 1549 / 4962, Loss: 0.151162
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.909091
+	Batch: 1599 / 4962, Loss: 0.029406
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.4659323402895377
+F1 on dev set: 0.726370, f1_a: 0.791253, f1_b: 0.661487
+	Batch: 1649 / 4962, Loss: 0.030076
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1699 / 4962, Loss: 0.050629
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1749 / 4962, Loss: 0.020902
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1799 / 4962, Loss: 0.263753
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.4901428899417321
+F1 on dev set: 0.722848, f1_a: 0.784112, f1_b: 0.661584
+	Batch: 1849 / 4962, Loss: 0.035355
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1899 / 4962, Loss: 0.165121
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.923077
+	Batch: 1949 / 4962, Loss: 0.067701
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1999 / 4962, Loss: 0.240929
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.857143
+Evaluating
+Loss on dev set:  0.4622918125241995
+F1 on dev set: 0.727970, f1_a: 0.781548, f1_b: 0.674392
+	Batch: 2049 / 4962, Loss: 0.329291
+		 Task A	Acc: 0.933333, F1: 0.923077
+		 Task B	Acc: 0.941176, F1: 0.800000
+	Batch: 2099 / 4962, Loss: 0.079610
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2149 / 4962, Loss: 0.049732
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2199 / 4962, Loss: 0.145013
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.666667
+Evaluating
+Loss on dev set:  0.46315230023211396
+F1 on dev set: 0.719842, f1_a: 0.782300, f1_b: 0.657385
+	Batch: 2249 / 4962, Loss: 0.429240
+		 Task A	Acc: 0.823529, F1: 0.666667
+		 Task B	Acc: 0.933333, F1: 0.800000
+	Batch: 2299 / 4962, Loss: 0.171437
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.000000
+	Batch: 2349 / 4962, Loss: 0.114069
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2399 / 4962, Loss: 0.224005
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.888889, F1: 0.750000
+Evaluating
+Loss on dev set:  0.46844432545969117
+F1 on dev set: 0.739526, f1_a: 0.790083, f1_b: 0.688970
+	Batch: 2449 / 4962, Loss: 0.281576
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 2499 / 4962, Loss: 0.034028
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2549 / 4962, Loss: 0.081437
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2599 / 4962, Loss: 0.120118
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.4770504714300235
+F1 on dev set: 0.720732, f1_a: 0.778686, f1_b: 0.662777
+	Batch: 2649 / 4962, Loss: 0.066324
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2699 / 4962, Loss: 0.080296
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2749 / 4962, Loss: 0.168978
+		 Task A	Acc: 0.888889, F1: 0.875000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2799 / 4962, Loss: 0.083430
+		 Task A	Acc: 0.947368, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.47722196915688425
+F1 on dev set: 0.716625, f1_a: 0.783947, f1_b: 0.649303
+	Batch: 2849 / 4962, Loss: 0.110691
+		 Task A	Acc: 0.941176, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2899 / 4962, Loss: 0.168620
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2949 / 4962, Loss: 0.182063
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.904762, F1: 0.833333
+	Batch: 2999 / 4962, Loss: 0.125008
+		 Task A	Acc: 0.950000, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.4402324652824646
+F1 on dev set: 0.714574, f1_a: 0.789912, f1_b: 0.639237
+	Batch: 3049 / 4962, Loss: 0.057597
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 3099 / 4962, Loss: 0.118604
+		 Task A	Acc: 0.950000, F1: 0.941176
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3149 / 4962, Loss: 0.157343
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.909091
+	Batch: 3199 / 4962, Loss: 0.298610
+		 Task A	Acc: 0.846154, F1: 0.800000
+		 Task B	Acc: 0.947368, F1: 0.888889
+Evaluating
+Loss on dev set:  0.4443131295056679
+F1 on dev set: 0.696619, f1_a: 0.762070, f1_b: 0.631169
+	Batch: 3249 / 4962, Loss: 0.261034
+		 Task A	Acc: 0.944444, F1: 0.941176
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3299 / 4962, Loss: 0.140915
+		 Task A	Acc: 0.944444, F1: 0.952381
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3349 / 4962, Loss: 0.180514
+		 Task A	Acc: 0.937500, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3399 / 4962, Loss: 0.134121
+		 Task A	Acc: 0.937500, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.43277201378861296
+F1 on dev set: 0.726394, f1_a: 0.784239, f1_b: 0.668549
+	Batch: 3449 / 4962, Loss: 0.123184
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.800000
+	Batch: 3499 / 4962, Loss: 0.103494
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.947368, F1: 0.800000
+	Batch: 3549 / 4962, Loss: 0.207329
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.937500, F1: 0.666667
+	Batch: 3599 / 4962, Loss: 0.081074
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.4627385727631358
+F1 on dev set: 0.728539, f1_a: 0.780557, f1_b: 0.676521
+	Batch: 3649 / 4962, Loss: 0.274657
+		 Task A	Acc: 0.937500, F1: 0.923077
+		 Task B	Acc: 0.937500, F1: 0.800000
+	Batch: 3699 / 4962, Loss: 0.070172
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.933333, F1: 0.000000
+	Batch: 3749 / 4962, Loss: 0.122374
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.857143
+	Batch: 3799 / 4962, Loss: 0.115753
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.800000
+Evaluating
+Loss on dev set:  0.4310928614905629
+F1 on dev set: 0.729081, f1_a: 0.787217, f1_b: 0.670945
+	Batch: 3849 / 4962, Loss: 0.152932
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.857143
+	Batch: 3899 / 4962, Loss: 0.061531
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3949 / 4962, Loss: 0.197869
+		 Task A	Acc: 0.923077, F1: 0.857143
+		 Task B	Acc: 0.947368, F1: 0.888889
+	Batch: 3999 / 4962, Loss: 0.377695
+		 Task A	Acc: 0.933333, F1: 0.800000
+		 Task B	Acc: 0.823529, F1: 0.666667
+Evaluating
+Loss on dev set:  0.4469492529781583
+F1 on dev set: 0.697182, f1_a: 0.786056, f1_b: 0.608307
+	Batch: 4049 / 4962, Loss: 0.062485
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4099 / 4962, Loss: 0.068622
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4149 / 4962, Loss: 0.202036
+		 Task A	Acc: 0.947368, F1: 0.941176
+		 Task B	Acc: 0.923077, F1: 0.800000
+	Batch: 4199 / 4962, Loss: 0.019434
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.47968831452994776
+F1 on dev set: 0.711304, f1_a: 0.782657, f1_b: 0.639951
+	Batch: 4249 / 4962, Loss: 0.040956
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4299 / 4962, Loss: 0.160579
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.916667, F1: 0.000000
+	Batch: 4349 / 4962, Loss: 0.072205
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4399 / 4962, Loss: 0.028037
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.4570268282236961
+F1 on dev set: 0.707854, f1_a: 0.797165, f1_b: 0.618543
+	Batch: 4449 / 4962, Loss: 0.076754
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4499 / 4962, Loss: 0.175565
+		 Task A	Acc: 0.928571, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4549 / 4962, Loss: 0.399677
+		 Task A	Acc: 0.937500, F1: 0.888889
+		 Task B	Acc: 0.875000, F1: 0.666667
+	Batch: 4599 / 4962, Loss: 0.116761
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.937500, F1: 0.000000
+Evaluating
+Loss on dev set:  0.4067739251380165
+F1 on dev set: 0.717404, f1_a: 0.787750, f1_b: 0.647059
+	Batch: 4649 / 4962, Loss: 0.321259
+		 Task A	Acc: 0.923077, F1: 0.666667
+		 Task B	Acc: 0.947368, F1: 0.857143
+	Batch: 4699 / 4962, Loss: 0.068247
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4749 / 4962, Loss: 0.179144
+		 Task A	Acc: 0.933333, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4799 / 4962, Loss: 0.254659
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.933333, F1: 0.666667
+Evaluating
+Loss on dev set:  0.4347159414528272
+F1 on dev set: 0.728678, f1_a: 0.793831, f1_b: 0.663524
+	Batch: 4849 / 4962, Loss: 0.256625
+		 Task A	Acc: 0.916667, F1: 0.666667
+		 Task B	Acc: 0.900000, F1: 0.857143
+	Batch: 4899 / 4962, Loss: 0.339467
+		 Task A	Acc: 0.937500, F1: 0.888889
+		 Task B	Acc: 0.937500, F1: 0.857143
+	Batch: 4949 / 4962, Loss: 0.091860
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Average f1 on training set: 0.920659, f1_a: 0.953472, f1_b: 0.887846
+Training at epoch 4
+	Batch: 49 / 4962, Loss: 0.345011
+		 Task A	Acc: 0.923077, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 99 / 4962, Loss: 0.204611
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 149 / 4962, Loss: 0.397904
+		 Task A	Acc: 0.888889, F1: 0.800000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 199 / 4962, Loss: 0.453863
+		 Task A	Acc: 0.875000, F1: 0.833333
+		 Task B	Acc: 0.937500, F1: 0.666667
+Evaluating
+Loss on dev set:  0.48759401202774966
+F1 on dev set: 0.718201, f1_a: 0.779652, f1_b: 0.656751
+	Batch: 249 / 4962, Loss: 0.070320
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 299 / 4962, Loss: 0.014305
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 349 / 4962, Loss: 0.034793
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 399 / 4962, Loss: 0.012254
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5833759303562916
+F1 on dev set: 0.717394, f1_a: 0.777778, f1_b: 0.657010
+	Batch: 449 / 4962, Loss: 0.047838
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 499 / 4962, Loss: 0.061508
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 549 / 4962, Loss: 0.189918
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.857143
+	Batch: 599 / 4962, Loss: 0.004422
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5762896197728622
+F1 on dev set: 0.720465, f1_a: 0.780883, f1_b: 0.660047
+	Batch: 649 / 4962, Loss: 0.005735
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 699 / 4962, Loss: 0.007145
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 749 / 4962, Loss: 0.051755
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 799 / 4962, Loss: 0.022526
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6127043034260472
+F1 on dev set: 0.691089, f1_a: 0.772031, f1_b: 0.610147
+	Batch: 849 / 4962, Loss: 0.014176
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 899 / 4962, Loss: 0.038066
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 949 / 4962, Loss: 0.022585
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 999 / 4962, Loss: 0.486349
+		 Task A	Acc: 0.944444, F1: 0.923077
+		 Task B	Acc: 0.857143, F1: 0.666667
+Evaluating
+Loss on dev set:  0.573107236256011
+F1 on dev set: 0.701408, f1_a: 0.782300, f1_b: 0.620516
+	Batch: 1049 / 4962, Loss: 0.236689
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.666667
+	Batch: 1099 / 4962, Loss: 0.017138
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1149 / 4962, Loss: 0.268217
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.933333, F1: 0.800000
+	Batch: 1199 / 4962, Loss: 0.019664
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6000406241569763
+F1 on dev set: 0.713977, f1_a: 0.785140, f1_b: 0.642815
+	Batch: 1249 / 4962, Loss: 0.039789
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1299 / 4962, Loss: 0.005087
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1349 / 4962, Loss: 0.012233
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1399 / 4962, Loss: 0.160951
+		 Task A	Acc: 0.928571, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5943833565196166
+F1 on dev set: 0.719366, f1_a: 0.785455, f1_b: 0.653278
+	Batch: 1449 / 4962, Loss: 0.302578
+		 Task A	Acc: 0.937500, F1: 0.800000
+		 Task B	Acc: 0.937500, F1: 0.666667
+	Batch: 1499 / 4962, Loss: 0.009038
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1549 / 4962, Loss: 0.006867
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1599 / 4962, Loss: 0.002089
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6211993350910071
+F1 on dev set: 0.711818, f1_a: 0.788656, f1_b: 0.634981
+	Batch: 1649 / 4962, Loss: 0.017515
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1699 / 4962, Loss: 0.032140
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1749 / 4962, Loss: 0.554709
+		 Task A	Acc: 0.916667, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1799 / 4962, Loss: 0.074238
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.909091
+Evaluating
+Loss on dev set:  0.6330372344415921
+F1 on dev set: 0.690992, f1_a: 0.785231, f1_b: 0.596752
+	Batch: 1849 / 4962, Loss: 0.069909
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.666667
+	Batch: 1899 / 4962, Loss: 0.005747
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1949 / 4962, Loss: 0.005619
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1999 / 4962, Loss: 0.001968
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+Evaluating
+Loss on dev set:  0.6170585159307871
+F1 on dev set: 0.687733, f1_a: 0.773601, f1_b: 0.601864
+	Batch: 2049 / 4962, Loss: 0.018670
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2099 / 4962, Loss: 0.023032
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2149 / 4962, Loss: 0.025407
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2199 / 4962, Loss: 0.049850
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6043816613845336
+F1 on dev set: 0.723920, f1_a: 0.786634, f1_b: 0.661205
+	Batch: 2249 / 4962, Loss: 0.010384
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2299 / 4962, Loss: 0.326066
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.888889, F1: 0.000000
+	Batch: 2349 / 4962, Loss: 0.147973
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.857143
+	Batch: 2399 / 4962, Loss: 0.121852
+		 Task A	Acc: 0.916667, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5313244964449834
+F1 on dev set: 0.723790, f1_a: 0.784410, f1_b: 0.663170
+	Batch: 2449 / 4962, Loss: 0.514851
+		 Task A	Acc: 0.900000, F1: 0.666667
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2499 / 4962, Loss: 0.181517
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.888889
+	Batch: 2549 / 4962, Loss: 0.178630
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.954545, F1: 0.800000
+	Batch: 2599 / 4962, Loss: 0.050260
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5868906276061748
+F1 on dev set: 0.716476, f1_a: 0.785402, f1_b: 0.647551
+	Batch: 2649 / 4962, Loss: 0.736265
+		 Task A	Acc: 0.866667, F1: 0.900000
+		 Task B	Acc: 0.882353, F1: 0.666667
+	Batch: 2699 / 4962, Loss: 0.073665
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2749 / 4962, Loss: 0.010997
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2799 / 4962, Loss: 0.008245
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5730952418480928
+F1 on dev set: 0.717467, f1_a: 0.783603, f1_b: 0.651332
+	Batch: 2849 / 4962, Loss: 0.012131
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2899 / 4962, Loss: 0.019558
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2949 / 4962, Loss: 0.314888
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.944444, F1: 0.857143
+	Batch: 2999 / 4962, Loss: 0.079291
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5418949018304164
+F1 on dev set: 0.729490, f1_a: 0.791939, f1_b: 0.667041
+	Batch: 3049 / 4962, Loss: 0.126349
+		 Task A	Acc: 0.937500, F1: 0.909091
+		 Task B	Acc: 0.937500, F1: 0.888889
+	Batch: 3099 / 4962, Loss: 0.003595
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 3149 / 4962, Loss: 0.122047
+		 Task A	Acc: 0.950000, F1: 0.941176
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3199 / 4962, Loss: 0.067495
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.540767500248666
+F1 on dev set: 0.720818, f1_a: 0.787812, f1_b: 0.653824
+	Batch: 3249 / 4962, Loss: 0.215887
+		 Task A	Acc: 0.950000, F1: 0.941176
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3299 / 4962, Loss: 0.031952
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3349 / 4962, Loss: 0.006718
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3399 / 4962, Loss: 0.014779
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5750271876653036
+F1 on dev set: 0.719064, f1_a: 0.785654, f1_b: 0.652474
+	Batch: 3449 / 4962, Loss: 0.029222
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3499 / 4962, Loss: 0.112467
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.941176, F1: 0.909091
+	Batch: 3549 / 4962, Loss: 0.252369
+		 Task A	Acc: 0.933333, F1: 0.909091
+		 Task B	Acc: 0.941176, F1: 0.888889
+	Batch: 3599 / 4962, Loss: 0.049685
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5705508121217673
+F1 on dev set: 0.713914, f1_a: 0.781918, f1_b: 0.645910
+	Batch: 3649 / 4962, Loss: 0.009522
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3699 / 4962, Loss: 0.042328
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 3749 / 4962, Loss: 0.027850
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3799 / 4962, Loss: 0.106183
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5612723811840018
+F1 on dev set: 0.714098, f1_a: 0.785734, f1_b: 0.642462
+	Batch: 3849 / 4962, Loss: 0.040824
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3899 / 4962, Loss: 0.029710
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3949 / 4962, Loss: 0.010328
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3999 / 4962, Loss: 0.211416
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.923077, F1: 0.800000
+Evaluating
+Loss on dev set:  0.5746809499194989
+F1 on dev set: 0.725742, f1_a: 0.788601, f1_b: 0.662883
+	Batch: 4049 / 4962, Loss: 0.015938
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4099 / 4962, Loss: 0.017808
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4149 / 4962, Loss: 0.214896
+		 Task A	Acc: 0.937500, F1: 0.941176
+		 Task B	Acc: 0.937500, F1: 0.909091
+	Batch: 4199 / 4962, Loss: 0.028882
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5817531921351567
+F1 on dev set: 0.727231, f1_a: 0.789700, f1_b: 0.664763
+	Batch: 4249 / 4962, Loss: 0.003869
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4299 / 4962, Loss: 0.019828
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4349 / 4962, Loss: 0.009379
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4399 / 4962, Loss: 0.050590
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5854806913874853
+F1 on dev set: 0.726686, f1_a: 0.788188, f1_b: 0.665184
+	Batch: 4449 / 4962, Loss: 0.048602
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4499 / 4962, Loss: 0.250223
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.904762, F1: 0.800000
+	Batch: 4549 / 4962, Loss: 0.364629
+		 Task A	Acc: 0.937500, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4599 / 4962, Loss: 0.052033
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.534811648611839
+F1 on dev set: 0.720342, f1_a: 0.784238, f1_b: 0.656445
+	Batch: 4649 / 4962, Loss: 0.235369
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.857143
+	Batch: 4699 / 4962, Loss: 0.188095
+		 Task A	Acc: 0.941176, F1: 0.888889
+		 Task B	Acc: 0.866667, F1: 0.750000
+	Batch: 4749 / 4962, Loss: 0.023936
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4799 / 4962, Loss: 0.024566
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.5291267802986579
+F1 on dev set: 0.713645, f1_a: 0.785197, f1_b: 0.642093
+	Batch: 4849 / 4962, Loss: 0.019818
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4899 / 4962, Loss: 0.019936
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4949 / 4962, Loss: 0.052790
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Average f1 on training set: 0.964342, f1_a: 0.979293, f1_b: 0.949391
+Training at epoch 5
+	Batch: 49 / 4962, Loss: 0.293298
+		 Task A	Acc: 0.904762, F1: 0.875000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 99 / 4962, Loss: 0.269835
+		 Task A	Acc: 0.866667, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 149 / 4962, Loss: 0.326786
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.875000, F1: 0.500000
+	Batch: 199 / 4962, Loss: 0.393024
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.866667, F1: 0.500000
+Evaluating
+Loss on dev set:  0.5356540083407592
+F1 on dev set: 0.706707, f1_a: 0.773138, f1_b: 0.640275
+	Batch: 249 / 4962, Loss: 0.007812
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 299 / 4962, Loss: 0.051108
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 349 / 4962, Loss: 0.017084
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 399 / 4962, Loss: 0.019167
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6225726027519275
+F1 on dev set: 0.713842, f1_a: 0.790559, f1_b: 0.637126
+	Batch: 449 / 4962, Loss: 0.002516
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 499 / 4962, Loss: 0.012204
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 549 / 4962, Loss: 0.460595
+		 Task A	Acc: 0.928571, F1: 0.947368
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 599 / 4962, Loss: 0.004545
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6486608817791327
+F1 on dev set: 0.706196, f1_a: 0.790426, f1_b: 0.621967
+	Batch: 649 / 4962, Loss: 0.007735
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 699 / 4962, Loss: 0.033467
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 749 / 4962, Loss: 0.069665
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.909091
+	Batch: 799 / 4962, Loss: 0.007007
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6936025595149169
+F1 on dev set: 0.712808, f1_a: 0.789416, f1_b: 0.636200
+	Batch: 849 / 4962, Loss: 0.001654
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 899 / 4962, Loss: 0.145061
+		 Task A	Acc: 0.947368, F1: 0.952381
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 949 / 4962, Loss: 0.001861
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 999 / 4962, Loss: 0.020283
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.7227400039824156
+F1 on dev set: 0.704559, f1_a: 0.790914, f1_b: 0.618205
+	Batch: 1049 / 4962, Loss: 0.117434
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.933333, F1: 0.800000
+	Batch: 1099 / 4962, Loss: 0.005812
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1149 / 4962, Loss: 0.005054
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 1199 / 4962, Loss: 0.004808
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6600375543229091
+F1 on dev set: 0.723303, f1_a: 0.786400, f1_b: 0.660205
+	Batch: 1249 / 4962, Loss: 0.169484
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.857143
+	Batch: 1299 / 4962, Loss: 0.291840
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.916667, F1: 0.666667
+	Batch: 1349 / 4962, Loss: 0.003383
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1399 / 4962, Loss: 0.012337
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6782589853765109
+F1 on dev set: 0.711405, f1_a: 0.780286, f1_b: 0.642523
+	Batch: 1449 / 4962, Loss: 0.014369
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1499 / 4962, Loss: 0.218454
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.950000, F1: 0.888889
+	Batch: 1549 / 4962, Loss: 0.005084
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1599 / 4962, Loss: 0.000761
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6782190483063459
+F1 on dev set: 0.718051, f1_a: 0.789799, f1_b: 0.646304
+	Batch: 1649 / 4962, Loss: 0.003338
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 0.000000
+	Batch: 1699 / 4962, Loss: 0.037360
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1749 / 4962, Loss: 0.002318
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1799 / 4962, Loss: 0.007008
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.7116950269884024
+F1 on dev set: 0.713317, f1_a: 0.789934, f1_b: 0.636700
+	Batch: 1849 / 4962, Loss: 0.010737
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1899 / 4962, Loss: 0.127704
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.928571, F1: 0.909091
+	Batch: 1949 / 4962, Loss: 0.031286
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 1999 / 4962, Loss: 0.045288
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6722761520590538
+F1 on dev set: 0.713096, f1_a: 0.783936, f1_b: 0.642257
+	Batch: 2049 / 4962, Loss: 0.044491
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2099 / 4962, Loss: 0.006176
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2149 / 4962, Loss: 0.026223
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2199 / 4962, Loss: 0.003648
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6561040475439185
+F1 on dev set: 0.702313, f1_a: 0.785237, f1_b: 0.619388
+	Batch: 2249 / 4962, Loss: 0.020811
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2299 / 4962, Loss: 0.009823
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2349 / 4962, Loss: 0.245412
+		 Task A	Acc: 0.944444, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2399 / 4962, Loss: 0.009454
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6784924591581026
+F1 on dev set: 0.731598, f1_a: 0.796530, f1_b: 0.666667
+	Batch: 2449 / 4962, Loss: 0.008653
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2499 / 4962, Loss: 0.012685
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2549 / 4962, Loss: 0.047876
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2599 / 4962, Loss: 0.002008
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6791245790246205
+F1 on dev set: 0.699288, f1_a: 0.790798, f1_b: 0.607779
+	Batch: 2649 / 4962, Loss: 0.036105
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2699 / 4962, Loss: 0.002518
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2749 / 4962, Loss: 0.213925
+		 Task A	Acc: 0.947368, F1: 0.857143
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2799 / 4962, Loss: 0.020594
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6899580015108372
+F1 on dev set: 0.713440, f1_a: 0.780707, f1_b: 0.646172
+	Batch: 2849 / 4962, Loss: 0.003506
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2899 / 4962, Loss: 0.005710
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2949 / 4962, Loss: 0.001583
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 2999 / 4962, Loss: 0.100454
+		 Task A	Acc: 0.952381, F1: 0.909091
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.7437701883415381
+F1 on dev set: 0.722680, f1_a: 0.792423, f1_b: 0.652938
+	Batch: 3049 / 4962, Loss: 0.057469
+		 Task A	Acc: 0.928571, F1: 0.888889
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3099 / 4962, Loss: 0.004418
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3149 / 4962, Loss: 0.036587
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3199 / 4962, Loss: 0.053003
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.956522, F1: 0.857143
+Evaluating
+Loss on dev set:  0.7242457656046519
+F1 on dev set: 0.712287, f1_a: 0.793735, f1_b: 0.630838
+	Batch: 3249 / 4962, Loss: 0.009691
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3299 / 4962, Loss: 0.003134
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3349 / 4962, Loss: 0.076186
+		 Task A	Acc: 0.937500, F1: 0.933333
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3399 / 4962, Loss: 0.075877
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.937500, F1: 0.666667
+Evaluating
+Loss on dev set:  0.6794635771463314
+F1 on dev set: 0.712182, f1_a: 0.789186, f1_b: 0.635177
+	Batch: 3449 / 4962, Loss: 0.035590
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 0.954545, F1: 0.888889
+	Batch: 3499 / 4962, Loss: 0.002567
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3549 / 4962, Loss: 0.007602
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3599 / 4962, Loss: 0.012184
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6993407887908129
+F1 on dev set: 0.710218, f1_a: 0.783006, f1_b: 0.637431
+	Batch: 3649 / 4962, Loss: 0.060943
+		 Task A	Acc: 0.937500, F1: 0.923077
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3699 / 4962, Loss: 0.003889
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3749 / 4962, Loss: 0.007236
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3799 / 4962, Loss: 0.008331
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6976074559900624
+F1 on dev set: 0.708326, f1_a: 0.780806, f1_b: 0.635845
+	Batch: 3849 / 4962, Loss: 0.003253
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3899 / 4962, Loss: 0.005506
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3949 / 4962, Loss: 0.013209
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 3999 / 4962, Loss: 0.038986
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+Evaluating
+Loss on dev set:  0.6825167973740742
+F1 on dev set: 0.721428, f1_a: 0.782274, f1_b: 0.660582
+	Batch: 4049 / 4962, Loss: 0.003490
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4099 / 4962, Loss: 0.022527
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
+	Batch: 4149 / 4962, Loss: 0.006957
+		 Task A	Acc: 1.000000, F1: 1.000000
+		 Task B	Acc: 1.000000, F1: 1.000000
